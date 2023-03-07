@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 # islower - function that check for lowercase character
 # Return - True ifEquals lowercase, if otherwise False
 
@@ -7,4 +8,3 @@ def islower(char):
         return True
     else:
         False
-
