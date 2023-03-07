@@ -1,7 +1,17 @@
 #!/usr/bin/python3
-# 9-priny_last_digit.py
+
+# print_last_digit: function that print last digit of any number
+# Number: arguments that hold pass variable or value
+# last: hold last digit of passed argument
+# Return: Last digit
 
 def print_last_digit(number):
-    """Print the last digit of a number and return it."""
-    print(abs(number)% 10, end="")
-    return (abs(number)% 10)
+    if number < 0:
+        last = (-1 * number) % 10
+
+    else:
+        last = number % 10
+
+    print('{}'.format(last), end='')
+
+    return last
