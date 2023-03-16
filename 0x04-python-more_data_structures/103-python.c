@@ -67,7 +67,7 @@ void print_python_bytes(PyObject *p)
 		}
 		else
 		{
-			print(" ");
+			printf(" ");
 		}
 	}
 }
